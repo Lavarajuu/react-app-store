@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.tab-item {
+  font-size: 18px;
+  color: #7b8794;
+  margin-bottom: 0px;
+}
+.apply-tab-style {
+  color: #2563eb;
+  text-decoration: underline;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-right: 18px;
+}
+@media screen and (min-width: 768px) {
+  .tab-item {
+    font-size: 22px;
+  }
+  .button {
+    background-color: transparent;
+    border-width: 0px;
+    margin-right: 20px;
+  }
+}
